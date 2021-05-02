@@ -1,0 +1,109 @@
+# Site settings
+
+title: LUOLY # 你的博客名字，可以定义修订
+
+header-img: "https://img.vim-cn.com/89/6f5cd304d0d227f236363ca8f5371083796ea2.jpg
+
+"
+
+tagline: "cn"  
+
+description: "這是一個憨憨的blog"  # 一句话描述你的博客
+
+baseurl: ""
+
+url: "http://cnfeat"  # 此处填写你的博客地址 
+
+# About/contact
+
+owner: 
+
+  name: "LUOLY" # 填写作者信息：名字
+
+  email: luoly8713@gmail.com # 填写作者信息：邮箱
+
+  bio: "第一眼就心动的人是不会甘心做朋友的。" # 填写作者信息：博客描述
+
+# Data
+
+gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+
+favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+
+douban_username:  # 你的豆瓣id
+
+twitter_username: 
+
+github_username: LUOLYUAN
+
+facebook_username: 
+
+weibo_username: 5就是lly
+
+zhihu_username: 
+
+# Build settings  
+
+# use Github Flavored Markdown !important  
+
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+
+markdown: kramdown
+
+highlighter: rouge
+
+permalink: pretty
+
+paginate: 8
+
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+timezone: Asia/Shanghai
+
+# Defaults for posts
+
+defaults:
+
+  -
+
+    scope: 
+
+      path: ""
+
+      type: "posts"
+
+    values:
+
+      layout: "post"
+
+      author: "LUOLY" # 你的名字
+
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+
+comments :
+
+  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+
+  duoshuo :
+
+    short_name :  # 填写你的 disqus id
+
+  disqus :
+
+      short_name :  # 填写你的 disqus id
+
+# Analytics and webmaster tools stuff goes here
+
+google_analytics:  # 填写你  google_analytics id
+
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+
+bing_verify:
+
+# Links to include in footer navigation
